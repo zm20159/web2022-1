@@ -2,9 +2,10 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>練習問題2.6</title>
 </head>
 <body>
-  Hello, World!
+ <p>
+<p>テキスト入力：<input type="text"></p>
 </body>
 </html>
