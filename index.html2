@@ -5,7 +5,61 @@
   <title>練習問題2.6</title>
 </head>
 <body>
- <p>
 <p>テキスト入力：<input type="text"></p>
+<form xxx.php " method="post">< メール（type="email" ）:<input type="email"
+    name="email"></label><input type="submit" value=" 送信"></form>
+    <br>
+    <form action="xxx.php " method="post"><label>URL(type=" url "):<input type="url " name" url "></label><input
+    type="submit" value=" 送信 "></form>
+    <form action=" xxx.php " method="post"><label>検索(type="search"):<input type="search"
+    name="search"></label><input type="submit" value=" 送信"></form>
+    <form action="xxx.php " method="post"><label> 電話(type="telephone"):<input tel "
+    name=" tel "></label><input type="submit" 送信 "></form>
+    <form action="xxx.php " method="post">< 数値(type="number"):<input type="number"
+      name="number"></label><input type="submit" value=" 送信
+      "></form>
+      <form action="xxx.php " method="post">< 日付(type="date"):<input type="date"
+      name="date"></label><input type="submit" value=" 送信"></form>
+      <form action="xxx.php " method="post">< ローカル日時(type=" datetime local"):<input datetime local"
+      name=" datetime local"></label><input type="submit"
+      value=" 送信 "></form>
+      <form action="xxx.php " method="post">< 月(type="month"):<input type="month"
+        name="month"></label><input type="submit" value=" 送信
+        "></form>
+        <form action="xxx.php " method="post">< 週(type="week" ):<input type="week"
+        name="week"></label><input type="submit" value=" 送信
+        "></form>
+        <form action="xxx.php " method="post">< 時間(type="time" ):<input type="time"
+        name="time"></label><input type="submit" value=" 送信
+        "></form>
+        <form action="xxx.php " method="post">< レンジ (type="range" ):<input type="range"
+        name="range"></label><input type="submit" value=" 送信
+        "></form>
+        <form action="xxx.php " method="post">< 色(type="color"):<input type="color"
+          name="color"></label><input type="submit" value=" 送信
+          "></form>
+          <p>< 名前：<input type="text" name="name" size="30" maxlength ="20"></label></p>
+            <p>< パスワード：<input type="password" name="pass" size="6"maxlength ="4"></label></p>
+            <p>学年：
+            <label><input type="radio" gakunen " value=" １年生 </label>
+            <label><input type="radio" gakunen " value=" ２年生 </label>
+            <label><input type="radio" gakunen " value=" ３年生 </label>
+            <label><input type="radio" gakunen " value=" ４年生 </label>
+            <label><input type="radio" gakunen " value=" ５年生 </label>
+            <label><input type="radio" gakunen " value=" ６年生 </label>
+            </p>
+            <p> 好きな課目：
+            <label><input type="checkbox" kamoku " kokugo 国語 </label>
+            <label><input type="checkbox" kamoku " eigo 英語 </label>
+            <label><input type="checkbox" kamoku " sansu 算数 </label>
+            <label><input type="checkbox" kamoku " rika 理科 </label>
+            <label><input type="checkbox" kamoku " syakai 社会 </label>
+            <label><input type="checkbox" kamoku " taiiku 体育 </label>
+            </p>
+            <p>< 宿題ファイル：<input type="file" syukudai "></label></p>
+            <p></p>
+            <input type="submit" value="送信">
+            <input type="reset" value="リセット">
+          </p>
 </body>
 </html>
