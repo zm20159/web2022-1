@@ -22,6 +22,7 @@ qa[0] = ["バッタを漢字で書くとどれ？","飛蝗","飛蟻","飛脚",1]
 qa[1] = ["タツノオトシゴを英語にするとどれ？","sea fish","sea horse","sea dragon",2];
 qa[2] = ["マグロを英語にするとどれ？","funa","suna","tuna",3];
 
+
 //初期設定
 q_sel = 3; //選択肢の数
 
@@ -88,7 +89,7 @@ function anser(num) {
 		s = "【<a href='javascript:history.back()'>前のページに戻る</a>】";
 		s += "【<a href='javascript:setReady()'>同じ問題を最初から</a>】";
 		s += "【<a href=''>次の問題に進む</a>】";
-		s += "【<a href="kadai3.html">最後の問題に挑戦</a>】";
+		s += "【<a href ='kadai3.html'> 新しい問題に進む </a> 】";
 		document.getElementById("text_s").innerHTML = s;
 	}
 }
