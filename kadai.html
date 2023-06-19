@@ -9,11 +9,11 @@
 <h1>三択クイズ</h1>
 <hr>
 <h2>問題</h2>
-<div id="text_q"><table border="2"><caption>成績発表</caption><tbody><tr><th>問題</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr><tr><th>成績</th><td>○</td><td>×</td><td>×</td><td>○</td><td>×</td><td>×</td><td>×</td><td>○</td><td>×</td><td>×</td></tr></tbody></table></div>
+<div id="text_q">1問目：イルカを漢字で書くとどれ？</div>
 <h2>選択</h2>
-<div id="text_s">【<a href="javascript:history.back()">前のページに戻る</a>】【<a href="javascript:setReady()">同じ問題を最初から</a>】【<a href="">次の問題に進む</a>】</div>
+<div id="text_s">【<a href="javascript:anser(1)">1：海豚</a>】【<a href="javascript:anser(2)">2：海牛</a>】【<a href="javascript:anser(3)">3：河豚</a>】</div>
 <h2>解答</h2>
-<div id="text_a">10問目：×太陽</div>
+<div id="text_a"></div>
 
 <script type="text/javascript">
 //問題と解答
@@ -74,29 +74,8 @@ function anser(num) {
 	count++;
 	if (count < qa.length) {
 		quiz();
-	} else {
-		//終了
-		s = "<table border='2'><caption>成績発表</caption>";
-		//1行目
-		s += "<tr><th>問題</th>";
-		for (n=0;n<qa.length;n++) {
-			s += "<th>" + (n+1) + "</th>";
-		}
-		s += "</tr>";
-		//2行目
-		s += "<tr><th>成績</th>";
-		for (n=0;n<qa.length;n++) {
-			s += "<td>" + ansers[n] + "</td>";
-		}
-		s += "</tr>";
-		s += "</table>";
-		document.getElementById("text_q").innerHTML = s;
-		//次の選択肢
-		s = "【<a href='javascript:history.back()'>前のページに戻る</a>】";
-		s += "【<a href='javascript:setReady()'>同じ問題を最初から</a>】";
-		s += "【<a href=''>次の問題に進む</a>】";
-		document.getElementById("text_s").innerHTML = s;
-	}
+	} else {<a href =“kadai2.html"> 成績を見る </a>
+		
 }
 </script>
 
