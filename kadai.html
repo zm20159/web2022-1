@@ -56,11 +56,10 @@ function anser(num) {
 	//答え合わせ
 	if (num == qa[count][q_sel + 1]) {
 		//正解
-		ansers[count] = "○";
+		s += "○" + qa[count][num];
 	} else {
-		ansers[count] = "×";
+		s += "×" + qa[count][num];
 	}
-	s += ansers[count] + qa[count][num];
 	document.getElementById("text_a").innerHTML = s;
 	
 	//次の問題を表示
